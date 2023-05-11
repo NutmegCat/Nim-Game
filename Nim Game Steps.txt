@@ -1,0 +1,23 @@
+Sure, here are the steps to create a Java program for playing the game of Nim without using arrays:
+
+	1. Start by creating a new Java class, named "NimGame".
+
+	2. Define instance variables for the four piles of sticks. These variables will be integers.
+
+	3. Write a constructor for the NimGame class that initializes the piles of sticks with random numbers between 4 and 8.
+
+	4. Write a method called "displayPiles" that displays the current configuration of the piles of sticks on the screen.
+
+	5. Write a method called "playGame" that implements the game logic. This method should prompt the first player to remove a number of sticks from a pile, validate the input, adjust the piles, and display the new configuration. 		Then it should prompt the second player to do the same. This process should continue until one player has won the game.
+
+	6. Write a method called "isGameOver" that checks whether the game is over. The game is over when all piles are empty.
+
+	7. Write a method called "printWinner" that prints a congratulatory note to the winner of the game.
+
+	8. Write a method called "startNewGame" that resets the piles of sticks and starts a new game.
+
+	9. Write a method called "play" that loops through the game until the users state that they are done playing.
+
+	10. In the main method, create a new NimGame object and call the "play" method to start the game.
+
+	11. At the end of the game, print the number of games won by each player.
